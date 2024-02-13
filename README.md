@@ -41,6 +41,5 @@
 ### Ce qu’on retient 👍
 
 * Créer un network pour faire communiquer les différents service dans docker
-* Qu'il faut templatiser les fichiers pour les insatller sur un serveur (notre machine) afin de les faire tourner
 
 <p align="right">(<a href="#readme-top">retour en haut ⬆</a>)</p>
