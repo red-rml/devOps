@@ -5,8 +5,7 @@
 * **Bachekou DIABY** _alias_ [@Bachekou-DIABY](https://github.com/Bachekou-DIABY)
 * **Rédouane RÉMILI** _alias_ [@FinOrfy](https://github.com/red-rml)
 
-
-## Techno :
+## Techno
 
 * Docker
 * Python
@@ -14,7 +13,7 @@
 * MySQL
 * Newman
 
-### Présentation :
+### Présentation
 
 * Montrer une partie de la réalisation technique
 * Difficultés : Surmontés ou non
@@ -29,13 +28,12 @@
 * Serveur Nginx
 * Faire communiquer les services dans docker en les mettant tous dans le même network
 
+### Difficulté/Solution : Etape 1
 
-### Difficultés : Etape 1
-
-* Faire communiquer les différents containers comme le back-end python et la bdd MySQL : 
+* Faire communiquer les différents containers comme le back-end python et la bdd MySQL :
   * Dans le fichier run.sh créer le network (sous-réseau) avec une IP fixe, avec à l’intérieur les différents services afin de permettre la communication entre ces services.
 
-### Difficultés : Etape 2
+### Difficulté/Solution : Etape 2
 
 * Installer Ansible : "Chemin source" "Chemin d’installation" 
   * Option -v et enter le chemin "absolu" source
@@ -45,7 +43,6 @@
   * installation d'une version plus recente d'ubuntu
 * Lorqu'on lance notre container docker l'image s'arrête automatiquement.
   * Ne pas oublier le "-i" pour que le container tourne encontinu avec la commande ```docker run --name ansible -v "cheminSource:/cheminDestination" -i  ansible```
-
 
 ### Ce qu’on retient 👍
 
