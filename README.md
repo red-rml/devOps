@@ -13,12 +13,6 @@
 * MySQL
 * Newman
 
-### Présentation
-
-* Montrer une partie de la réalisation technique
-* Difficultés : Surmontés ou non
-* Ce qu’on retient
-
 ---
 
 ### Mise en place Etape 1 : Infra standard via Docker
