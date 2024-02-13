@@ -28,8 +28,8 @@
 
 
 ### Difficultés : Etape 1
-•	Faire communiquer les différents containers comme le back-end python et la bdd MySQL : 
-	Dans le fichier run.sh créer le network (sous-réseau) avec une IP fixe, avec à l’intérieur les différents services afin de permettre la communication entre ces services.
+* Faire communiquer les différents containers comme le back-end python et la bdd MySQL : 
+  * Dans le fichier run.sh créer le network (sous-réseau) avec une IP fixe, avec à l’intérieur les différents services afin de permettre la communication entre ces services.
 
 ### Difficultés : Etape 2
 * Installer Ansible : "Chemin source" "Chemin d’installation" 
@@ -42,5 +42,5 @@
 
 * Créer un network pour faire communiquer les différents service dans docker
 
- 
+
 <p align="right">(<a href="#readme-top">retour en haut ⬆</a>)</p>
