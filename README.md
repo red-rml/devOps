@@ -35,14 +35,14 @@
 
 ### Difficulté/Solution : Etape 2
 
-* Installer Ansible : "Chemin source" "Chemin d’installation" 
+* Installer Ansible : "Chemin source" "Chemin d’installation"
   * Option -v et enter le chemin "absolu" source
 * Faire fonctionner la simple commandes ```ansible -v``` :
   * Il faut installer ansible directement dans le container ou il y a tout le projet avec la commande : ```apt-get install ansible``` => Ensuite la commande  fonctionne.
 * Veille version d'ubuntu et d'ansible qui provoquait des erreur car pas le module community.docker.docker_image
   * installation d'une version plus recente d'ubuntu
-* Lorqu'on lance notre container docker l'image s'arrête automatiquement.
-  * Ne pas oublier le "-i" pour que le container tourne encontinu avec la commande ```docker run --name ansible -v "cheminSource:/cheminDestination" -i  ansible```
+* Lorqu'on lance notre container ubuntu il s'arrête automatiquement.
+  * Ne pas oublier le **"-i"** pour que le container tourne en continu avec la commande ```docker run --name ansible -v "cheminSource:/cheminDestination" -i  ansible```
 
 ### Ce qu’on retient 👍
 
