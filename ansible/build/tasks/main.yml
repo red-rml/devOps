@@ -1,0 +1,22 @@
+- name: Redescendre dans /app
+  set_fact:
+    app_path: "{{ ansible_env.PWD | dirname }}"
+
+- name: Aller dans /app/Docker/Database
+  set_fact:
+    database_path: "{{ app_path }}/Docker/Database"
+
+- name: Afficher le chemin /app/Docker/Database
+  debug:
+    msg: "Le chemin /app/Docker/Database est {{ database_path }}"
+
+- name: osef
+  shell: "ls -lairth {{ database_path }}"
+
+
+- name: Build image and with build args
+  community.docker.docker_image:
+    name: myimage_mysql
+    build:
+      path: "{{ database_path }}"
+    source: build
