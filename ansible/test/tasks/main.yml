@@ -1,0 +1,3 @@
+- name: test
+  debug:
+    msg: "La variable est {{content.to_print}}"

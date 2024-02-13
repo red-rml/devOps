@@ -1,0 +1,4 @@
+- name: build les différentes images docker
+  hosts: localhost
+  roles: 
+    - build
