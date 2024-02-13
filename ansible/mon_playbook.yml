@@ -1,4 +1,4 @@
-- name: build les différentes images docker
+- name: Utilise le role pour build les différentes images docker
   hosts: localhost
   roles: 
     - build
