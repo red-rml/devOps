@@ -42,7 +42,7 @@
 * Veille version d'ubuntu et d'ansible qui provoquait des erreur car pas le module community.docker.docker_image
   * installation d'une version plus recente d'ubuntu
 * Lorqu'on lance notre container ubuntu il s'arrête automatiquement.
-  * Ne pas oublier le **"-i"** pour que le container tourne en continu avec la commande ```docker run --name ansible -v "cheminSource:/cheminDestination" -i  ansible```
+  * Ne pas oublier le ```-i``` pour que le container tourne en continu avec la commande ```docker run --name ansible -v "cheminSource:/cheminDestination" -i  ansible```
 
 ### Ce qu’on retient 👍
 
