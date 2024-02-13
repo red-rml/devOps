@@ -44,7 +44,7 @@
 
 ---
 
-### Améliorations possible : sécurisé l'environnement
+## Améliorations possible : sécurisé l'environnement
 
 * Supprimer les fichiers .sql qui génerent la bdd et un utilisateur. Créer plutôt des variables d'environnement sur Github pour ne pas avoir à pousser ces fichiers dans le ripot.
 * Configurer nginx qui est le point d'entrer back end pour le sécuriser : setup le Https (mettre en place les certificats).
