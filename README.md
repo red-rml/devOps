@@ -40,8 +40,10 @@
 
 ### Ce qu’on retient 👍
 
-* Créer un network pour faire communiquer les différents service dans docker
-
+* Créer un subnet pour faire communiquer les différents service dans docker
+* Mise en place d'une infrastructure de base avec nginx, une bdd et un backend quelconque (ici python)
+* Utilisation d'ansible pour realiser de la configuration automatisée
+  
 ---
 
 ### Améliorations possible : sécurisé l'environnement
