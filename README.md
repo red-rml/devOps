@@ -42,4 +42,12 @@
 
 * Créer un network pour faire communiquer les différents service dans docker
 
+### Améliorations possible : sécurisé l'environnement
+
+* Supprimer les fichiers .sql qui génerent la bdd et un utilisateur. Créer plutôt des variables d'environnement sur Github pour ne pas avoir à pousser ces fichiers dans le ripot.
+* Configurer nginx qui est le point d'entrer back end pour le sécuriser : setup le Https (mettre en place les certificats).
+* Rediriger toutes les requettes émisent au serveur python vers le serveur nginx qui sera configurer en https
+* S'assurer que les versions des packages soit toujours maintenus, sécurisés et compatible.
+* Enfin protéger le ripot github en protégeant par exemple la branch "main" et en forcant la riview de code avant Pull Request
+
 <p align="right">(<a href="#readme-top">retour en haut ⬆</a>)</p>
